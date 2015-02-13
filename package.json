@@ -1,0 +1,26 @@
+{
+  "name": "clif",
+  "version": "0.0.1",
+  "description": "",
+  "dependencies": {
+    "6to5": "3.5.3",
+    "browserify-middleware": "4.1.0",
+    "child_pty": "Gottox/child_pty#86bb37",
+    "clone": "1.0.0",
+    "commander": "2.6.0",
+    "express": "4.11.2",
+    "keypress": "0.2.1",
+    "omggif": "1.0.5",
+    "osenv": "0.1.0",
+    "phantomjs": "1.9.15",
+    "pngjs": "0.4.0",
+    "queue3": "1.0.3",
+    "term.js": "0.0.4",
+    "uid2": "0.0.3",
+    "ws": "0.7.1"
+  },
+  "bin": {
+    "clif": "./bin/clif"
+  },
+  "main": "./node/index"
+}

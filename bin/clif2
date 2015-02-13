@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+console.log('');
+console.log(' \u001b[91m● Now recording! \u001b[39m');
+console.log(' \u001b[90m● Write "exit" to finish the session. \u001b[39m');
+console.log('');
+
+setTimeout(function(){
+  console.log('');
+  console.log(' \u001b[90m⧗ Recording complete! Processing %d frames…\u001b[39m', 20);
+}, 500);
+
+//setTimeout(function(){
+  //process.stdout.write(' ');
+  //setTimeout(function(){
+    //process.stdout.write('\033[90m.\033[39m');
+    //console.log('\n \u001b[96m✓ Written to %s.\u001b[39m', 'woot');
+  //}, 1000);
+//}, 1000);

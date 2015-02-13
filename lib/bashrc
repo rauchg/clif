@@ -1,0 +1,9 @@
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+elif [ -f ~/.bash_profile ]; then
+  . ~/.bash_profile
+elif [ -f ~/.profile ]; then
+  . ~/.profile
+fi
+
+export PS1="\[\033[91m\] ● \[\033[00m\]$PS1"
