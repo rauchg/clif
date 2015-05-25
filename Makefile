@@ -3,7 +3,7 @@
 
 all: node
 
-node: lib
+node: lib/*.js
 	@for path in lib/*.js; do \
 		file=`basename $$path`; \
 		$(6TO5) "lib/$$file" > "node/$$file"; \
