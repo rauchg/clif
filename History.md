@@ -1,4 +1,10 @@
 
+0.0.3 / 2015-11-16
+==================
+
+  * switched `6to5` with `babel` and thus fixed
+    `kexec` warnings
+
 0.0.2 / 2015-11-16
 ==================
 
