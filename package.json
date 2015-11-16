@@ -5,7 +5,7 @@
   "dependencies": {
     "6to5": "3.5.3",
     "browserify-middleware": "4.1.0",
-    "child_pty": "Gottox/child_pty#86bb37",
+    "child_pty": "3.0.0",
     "clone": "1.0.0",
     "commander": "2.6.0",
     "express": "4.11.2",
@@ -17,7 +17,7 @@
     "queue3": "1.0.3",
     "term.js": "0.0.4",
     "uid2": "0.0.3",
-    "ws": "0.7.2"
+    "ws": "0.8.0"
   },
   "bin": {
     "clif": "./bin/clif"
