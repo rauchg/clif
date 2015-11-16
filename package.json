@@ -3,7 +3,8 @@
   "version": "0.0.2",
   "description": "",
   "dependencies": {
-    "6to5": "3.5.3",
+    "babel": "6.1.18",
+    "babel-cli": "6.1.18",
     "browserify-middleware": "4.1.0",
     "child_pty": "3.0.0",
     "clone": "1.0.0",

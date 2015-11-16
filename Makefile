@@ -1,10 +1,5 @@
 
-6TO5 = ./node_modules/.bin/6to5
-
-all: node
+BABEL = ./node_modules/.bin/babel
 
 node: lib/*.js
-	@for path in lib/*.js; do \
-		file=`basename $$path`; \
-		$(6TO5) "lib/$$file" > "node/$$file"; \
-	done
+	@$(BABEL) lib --out-dir node
