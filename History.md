@@ -1,4 +1,10 @@
 
+0.0.4 / 2015-11-17
+==================
+
+  * package: use modern babel polyfills/presets
+  * bumped babel and fixed build
+
 0.0.3 / 2015-11-16
 ==================
 
