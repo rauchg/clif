@@ -5,6 +5,8 @@
   "dependencies": {
     "babel": "6.1.18",
     "babel-cli": "6.1.18",
+    "babel-polyfill": "6.1.19",
+    "babel-preset-es2015": "6.1.18",
     "browserify-middleware": "4.1.0",
     "child_pty": "3.0.0",
     "clone": "1.0.0",
