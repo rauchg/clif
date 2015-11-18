@@ -1,6 +1,6 @@
 {
   "name": "clif",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "",
   "dependencies": {
     "babel": "6.1.18",
