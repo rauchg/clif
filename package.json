@@ -25,5 +25,8 @@
   "bin": {
     "clif": "./bin/clif"
   },
+  "scripts": {
+    "postinstall": "babel lib --out-dir node"
+  },
   "main": "./node/index"
 }
