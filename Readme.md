@@ -66,8 +66,6 @@ out to the filesystem.
   [terminal.js](https://github.com/Gottox/terminal.js) seems like a good
   candidate to add a `<canvas>` adaptor to.
 - Should work on Windows with some minor tweaks.
-- There's an issue with Node 0.12 and IO.js on Mac
-  where stdout sometimes buffers for no reason `¯\_(ツ)_/¯`
 
 ## Credits
 
